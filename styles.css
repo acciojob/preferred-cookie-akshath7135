@@ -1,9 +1,27 @@
+/* Define CSS variables for font size and color */
 :root {
-  --fontsize: 16px;
-  --fontcolor: #000000;
+    --fontsize: 16px;
+    --fontcolor: #000000;
 }
 
+/* Apply the variables to the body */
 body {
-  font-size: var(--fontsize);
-  color: var(--fontcolor);
+    font-size: var(--fontsize);
+    color: var(--fontcolor);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Form styling */
+form {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+input {
+    margin-bottom: 10px;
 }
